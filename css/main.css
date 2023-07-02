@@ -1,0 +1,339 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* header */
+header {
+  display: flex;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm1poBTbkmFjefcOh9m9yU3u_iBskOtYJ-Vk12uLX1&s");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60px;
+  color: rgb(0, 0, 0);
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+header a {
+  text-decoration: none;
+  color: rgb(255, 0, 230);
+  text-shadow: 0px 0px 1px black;
+  margin-left: 1%;
+}
+header a:hover {
+  text-decoration: underline;
+  color: black;
+  transition: 0.1s ease-in-out;
+}
+
+/* Main */
+
+/* container 1 */
+.containerOne {
+  background-color: rgb(0, 109, 83);
+  padding: 2% 10% 2% 10%;
+  height: 100%;
+}
+.oneHeader {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+}
+
+.item1 a {
+  color: white;
+  text-decoration: none;
+  margin: 3% 70px 3% 0;
+}
+.item1 a:hover {
+  color: rgba(255, 255, 255, 0.707);
+}
+.item2 a {
+  color: white;
+  text-decoration: none;
+  margin: 3% 20px 3% 0;
+  font-size: 19px;
+}
+.item2 a:hover {
+  color: rgba(255, 255, 255, 0.707);
+}
+.item2 button {
+  height: 50px;
+  width: 180px;
+  border-radius: 10px;
+}
+#btn1 {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  margin-right: 10px;
+}
+#btn1:hover {
+  color: rgba(255, 255, 255, 0.749);
+  border: 1px solid rgba(255, 255, 255, 0.749);
+}
+#btn2 {
+  background-color: white;
+  border: none;
+  color: rgb(0, 109, 83);
+  font-size: 16px;
+}
+
+/* --------- */
+
+.oneMain {
+  display: flex;
+  margin: 6% 0 0 0;
+}
+.oneMainLeft {
+  margin: 5% 0 0 0;
+}
+.oneMainLeft h1 {
+  font-size: 30px;
+  color: white;
+}
+.oneMainRight img {
+  height: 500px;
+}
+.oneMainLeft p {
+  font-size: 13px;
+  margin: 2% 0% 10% 0;
+  color: white;
+}
+.miniMainLeftBox {
+  display: flex;
+  margin: 5% 45% 0 0;
+  justify-content: space-around;
+}
+.miniMainLeftBox a {
+  color: white;
+  text-decoration: none;
+  font-size: 10px;
+  margin: 3% 0 0 0;
+}
+.miniMainLeftBox a:hover {
+  text-decoration: underline;
+}
+.miniMainLeftBox button {
+  width: 150px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  border-radius: 10px;
+}
+.miniMainLeftBox button:hover {
+  background-color: white;
+  color: rgb(0, 109, 83);
+  transition: 0.3s ease-in-out;
+}
+
+/*  container 2 */
+.containerTwo {
+  width: 100%;
+  background-color: white;
+  text-align: center;
+}
+
+.containerTwo h1 {
+  margin: 5% 30% 5% 30%;
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.756);
+}
+.containerTwo img {
+  height: 400px;
+  margin-top: 5%;
+  animation: container2 0.9s ease-in-out; 
+}
+@keyframes container2{
+    0%{
+        margin-top: 100%;
+    }
+    100%{
+    }
+    
+}
+.topOf2ndContainer, .bottomOf2ndContainer {
+  display: flex;
+}
+
+#one h3 {
+    font-size: 17px;
+  color: orangered;
+  
+}
+#two h3 {
+    font-size: 17px;
+  color: blue;
+}
+#three h3 {
+    font-size: 17px;
+  color: purple;
+}
+#four h3 {
+    font-size: 17px;
+  color: powderblue;
+}
+/* ---------- */
+
+#one h1 {
+    font-size: 25px;
+    margin: 0% 30% 0% 30%;
+  }
+  #two h1 {
+    font-size: 25px;
+    margin: 0% 30% 0% 30%;
+  }
+  #three h1 {
+    font-size: 25px;
+    margin: 0% 30% 0% 30%;
+  }
+  #four h1 {
+    font-size: 25px;
+    margin: 0% 20% 0% 20%;
+  }
+/* --------- */
+
+#one p {
+    margin: 0 10% 0 10%;
+  }
+  #two p {
+    margin: 0 10% 0 10%;
+  }
+  #three p {
+    margin: 0 10% 0 10%;
+  }
+  #four p {
+    margin: 0 10% 0 10%;
+  }
+
+/* --------- */
+#one a{
+  color: green;
+  text-decoration: none;
+}
+#two a {
+  color: green;
+  text-decoration: none;
+}
+#three a {
+  color: green;
+  text-decoration: none;
+}
+#four a {
+  color: green;
+  text-decoration: none;
+}
+
+/* container 3 */
+
+.container3{
+    display: flex;
+   font-size: 14px;
+    color: white;
+    text-align: center;
+
+}
+.container3 p{
+    color: rgba(244, 244, 244, 0.777);
+    font-size: 12px;
+}
+.left{
+    background-image: url("https://img.freepik.com/premium-vector/holographic-world-map-with-pin-map_79603-1633.jpg?w=740");
+    background-size: cover;
+}
+#num{
+    margin: 3% 10px 0 10px;
+}
+/* footer */
+
+footer{
+    background-color: black;
+    color: white;
+}
+.mainCntainerOfFooter{
+    display: flex;
+    flex-direction: column;
+    padding: 2% 5% 2% 5%;
+}
+.mainCntainerOfFooter a{
+    color: beige;
+    text-decoration: none;
+    margin-top: 10%;
+    font-size: 10px;
+}
+.mainCntainerOfFooter h1{
+    font-size: 13px;
+}
+.headOfFooter{
+    display: flex;
+    justify-content: space-between;
+    color: red;
+}
+.line1{
+    display: flex;
+    flex-direction: column;
+}
+.line2{
+    display: flex;
+    flex-direction: column;
+}
+.line3{
+    display: flex;
+    flex-direction: column;
+}
+.line4{
+    display: flex;
+    flex-direction: column;
+}
+.footOfFooter{
+    display: flex;
+    margin: 3% 0 0 0;
+}
+.part1ofFootFooter{
+    color: white;
+}
+
+/* media screen */
+
+@media only screen and (max-width: 1195px) {
+  /* header */
+  header {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+  header a {
+    margin-top: 1%;
+  }
+  /* main */
+  .oneHeader {
+    visibility: hidden;
+  }
+  .oneMain {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: -10% 0 0 0;
+  }
+  .miniMainLeftBox {
+    display: flex;
+    margin: 5% 35% 0 0;
+    justify-content: space-around;
+  }
+  /* container 2 */
+  .topOf2ndContainer, .bottomOf2ndContainer {
+    display: flex;
+    flex-direction: column;
+  }  
+.containerTwo h1 {
+    margin: 5% 6% 5% 6%;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.756);
+  }
+}

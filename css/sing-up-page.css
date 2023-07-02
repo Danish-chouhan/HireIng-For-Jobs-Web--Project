@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* main-contiainer */
+
+body {
+  background-color: rgb(232, 232, 232);
+  font-family: "Poppins", sans-serif;
+}
+
+/* header */
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  height: 80px;
+  box-shadow: 0px 0px 10px rgb(77, 76, 76);
+}
+header img {
+  height: 100%;
+}
+
+/* main */
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main {
+  background-color: white;
+  margin: 4% 10% 4% 10%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px rgb(186, 185, 185);
+  text-align: center;
+  animation: example 1.s ease-in-out;
+}
+@keyframes example {
+    0% {
+     opacity: 0;
+     margin-top: 100%;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+main img {
+  height: 18px;
+  margin-right: 3%;
+}
+#firstH1 {
+  margin: 5% 0 0 0;
+  color: rgb(48, 136, 115);
+}
+.btns {
+  display: flex;
+  flex-direction: column;
+  margin: 5% 5% 5% 5%;
+}
+.btns a {
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+}
+.btns button {
+  cursor: pointer;
+  margin: 10px 10px 20px 10px;
+  height: 42px;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid rgb(85, 85, 85);
+  background-color: transparent;
+  text-align: center;
+}
+.btns button:hover {
+  transition: 0.4s ease;
+  background-color: rgb(226, 226, 226);
+}
+#discrption1 {
+  color: rgb(48, 136, 115);
+  text-decoration: none;
+}
+#discrption1:hover {
+  text-decoration: underline;
+}
+#discrption2 {
+  color: rgb(86, 86, 86);
+  margin: 10% 0 5% 0;
+}
+
+form {
+  color: rgb(74, 73, 73);
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin: 2% 9% 2% 9%;
+}
+form input {
+  margin: 3% 0% 3% 0%;
+  height: 35px;
+  border: 1px solid rgb(214, 212, 212);
+  border-radius: 10px;
+}
+
+#discrption3 {
+  text-align: center;
+  margin: 5% 0 5% 0;
+  color: rgb(93, 92, 92);
+}
+
+#submit-btn {
+  background-color: rgb(48, 136, 115);
+  color: white;
+  cursor: pointer;
+}
+#submit-btn:hover {
+  background-color: rgb(36, 98, 84);
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  margin: 4% 10% 4% 10%;
+  text-align: center;
+}
+footer p {
+  color: rgb(96, 96, 96);
+}
+footer a {
+  color: rgb(0, 109, 83);
+  text-decoration: none;
+  margin: 2% 0 10% 0;
+  font-size: 17px;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+footer hr {
+  margin: 0 0 5% 0;
+}
